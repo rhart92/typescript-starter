@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build",
+    "incremental": true,
+    "sourceMap": false,
+
+    "target": "ESNext",
+    "module": "commonjs",
+
+    "moduleResolution": "Node",
+
+    "allowSyntheticDefaultImports": true,
+
+    "useDefineForClassFields": false,
+
+    "strict": true,
+    "suppressImplicitAnyIndexErrors": true,
+
+    "tsBuildInfoFile": "./tmp/tsconfig.tsbuildinfo",
+
+    "isolatedModules": true,
+    "esModuleInterop": true,
+		"noUncheckedIndexedAccess": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "checkJs": false,
+    "resolveJsonModule": true,
+
+    "jsx": "react",
+    "lib": [
+      "ES2018",
+      "DOM",
+      "ScriptHost",
+      "ESNext.AsyncIterable",
+      "ES2019.Array",
+      "ES2020.String"
+    ]
+  },
+  "include": ["src/**/*"]
+}
